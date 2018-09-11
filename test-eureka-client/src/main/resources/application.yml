@@ -1,0 +1,9 @@
+server:
+  port: 8601
+spring:
+  application:
+    name: test-eureka-client
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8700/eureka/
